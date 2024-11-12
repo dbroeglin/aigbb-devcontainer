@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.remote-containers",
+        "GitHub.remotehub",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "github.vscode-pull-request-github",
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.azure-dev",
+        "ms-azuretools.vscode-bicep",
+        "ms-vscode.powershell",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "tomoki1207.pdf",
+        "redhat.vscode-yaml",
+        "formulahendry.azure-storage-explorer",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "ms-azuretools.vscode-azurestorage",
+        "ms-azuretools.vscode-azure-github-copilot",
+        "ms-vscode-remote.remote-containers",
+        "ms-python.black-formatter"
+    ]
+}
