@@ -6,7 +6,7 @@ Feedback and bug reports are very welcome! Please open an GitHub issue if you fi
 
 ## Contents
 
-  - `requirements.txt` for Python package dependencies. Packages in this file will be automatically installed post container creation (see https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#35)
+  - `pyproject.toml` to manage your Python configuration. Dependencies are automatically installed when the DevContainer is setup (see https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#35)
   - `.devcontainer/devcontainer.json` a [Development Container](https://containers.dev/) (works also as a [GitHub Codespace](https://github.com/features/codespaces)) configuration file that includes:
     - Features:
       - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli): `az`
@@ -19,6 +19,10 @@ Feedback and bug reports are very welcome! Please open an GitHub issue if you fi
       - several Visual Studio Code extensions for Azure
       - a YAML extension
       - [Jupyter Notebooks](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+      - [UV](https://docs.astral.sh/uv/) UV is my go-to package manager for Python. Alternatively if you want to use `pip` check out the [`feature/pip`](https://github.com/dbroeglin/aigbb-devcontainer/tree/feature/pip) branch.
+      - [Starship](https://starship.rs) to manage the terminal prompt.
       - [Many others](https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#12)
   - `.gitignore` for Python
-  - MIT `LICENSE`
+  - Open Source MIT `LICENSE`
+
+

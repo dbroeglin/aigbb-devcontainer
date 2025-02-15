@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:3",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
     "features": {
       "ghcr.io/devcontainers/features/azure-cli:1": {},
       "ghcr.io/azure/azure-dev/azd:0": {},
@@ -10,30 +10,29 @@
     "customizations": {
       "vscode": {
         "extensions": [
-            "GitHub.remotehub",
-            "GitHub.copilot",
-            "GitHub.copilot-chat",
-            "github.vscode-pull-request-github",
-            "ms-vscode.vscode-node-azure-pack",
-            "ms-toolsai.jupyter",
-            "ms-azuretools.azure-dev",
-            "ms-azuretools.vscode-bicep",
-            "ms-vscode.powershell",
-            "ms-vscode-remote.vscode-remote-extensionpack",
-            "tomoki1207.pdf",
-            "redhat.vscode-yaml",
             "formulahendry.azure-storage-explorer",
-            "ms-azuretools.vscode-docker",
+            "GitHub.copilot-chat",
+            "GitHub.copilot",
+            "GitHub.remotehub",
+            "github.vscode-pull-request-github",
+            "ms-azuretools.azure-dev",
+            "ms-azuretools.vscode-azure-github-copilot",
             "ms-azuretools.vscode-azureresourcegroups",
             "ms-azuretools.vscode-azurestorage",
-            "ms-azuretools.vscode-azure-github-copilot",
+            "ms-azuretools.vscode-bicep",
+            "ms-azuretools.vscode-docker",
+            "ms-python.black-formatter",
+            "ms-toolsai.jupyter",
             "ms-vscode-remote.remote-containers",
-            "ms-python.black-formatter"
+            "ms-vscode-remote.vscode-remote-extensionpack",
+            "ms-vscode.powershell",
+            "redhat.vscode-yaml",
+            "tomoki1207.pdf"
         ]
       }
     },
     // Add your own post creation commands here
     // Add the Python packages that you use to requirements.txt
-    "postCreateCommand": "sudo apt update && .devcontainer/install-uv.sh"
+    "postCreateCommand": ".devcontainer/post-create.sh"
   }
   
