@@ -15,5 +15,10 @@ curl -sS https://starship.rs/install.sh | sh -s -- -y
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 source ~/.bashrc
 
+printf "\n\n\033[1m✅ DevContainer was successfully created!\033[0m\n\n"
+printf "Next steps: \n"
+printf "  - Start hacking your AI App right away! 🚀\n"
+printf "  - Add python dependencies to pyproject.yaml by running 'uv add <package>'\n"
+printf "  - See https://docs.astral.sh/uv/ for more information\n"
 
 

@@ -6,7 +6,7 @@ Feedback and bug reports are very welcome! Please open an GitHub issue if you fi
 
 ## Contents
 
-  - `pyproject.toml` to manage your Python configuration. Dependencies are automatically installed when the DevContainer is setup (see https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#35)
+  - `pyproject.toml` to manage your Python configuration. Dependencies are automatically installed when the DevContainer is setup (see https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#34)
   - `.devcontainer/devcontainer.json` a [Development Container](https://containers.dev/) (works also as a [GitHub Codespace](https://github.com/features/codespaces)) configuration file that includes:
     - Features:
       - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli): `az`

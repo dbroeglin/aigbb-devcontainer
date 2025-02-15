@@ -31,8 +31,6 @@
         ]
       }
     },
-    // Add your own post creation commands here
-    // Add the Python packages that you use to requirements.txt
     "postCreateCommand": ".devcontainer/post-create.sh"
   }
   
