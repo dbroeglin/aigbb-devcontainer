@@ -4,6 +4,38 @@ This is a template for working on Development Containers or GitHub Codespaces wi
 
 Feedback and bug reports are very welcome! Please open an GitHub issue if you find something that needs fixing or improvement.
 
+Warning
+
+Do NOT git clone the application under Windows and then open a DevContainer. This would create issues with file end of lines. For DevContainer click on the button above and let Visual Studio Code download the repository for you. Alternatively you can also git clone under Windows Subsystem for Linux (WSL) and ask Visual Studio Code to Re-Open in Container.
+
+## Getting Started
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dbroeglin/aigbb-devcontainer) [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dbroeglin/aigbb-devcontainer)
+
+> [!WARNING]
+> Do NOT `git clone` the application under Windows and then open a DevContainer. 
+> This would create issues with file end of lines. For DevContainer click on the button 
+> above and let Visual Studio Code download the repository for you. Alternatively you 
+> can also `git clone` under Windows Subsystem for Linux (WSL) and ask Visual Studio Code to
+> `Re-Open in Container`.
+
+### Provision Azure Resources
+
+To provision your Azure resources run:
+```bash
+azd up
+``` 
+
+If you want to deploy Azure AI Search run:
+```bash
+azd env set HAS_AZURE_AI_SEARCH true
+azd up
+``` 
+
+> [!NOTE]
+> Azure AI Search is not provisioned by default due to the increased cost
+> and provisioning time.
+
 ## Contents
 
   - `pyproject.toml` to manage your Python configuration. Dependencies are automatically installed when the DevContainer is setup (see https://github.com/dbroeglin/aigbb-devcontainer/blob/main/.devcontainer/devcontainer.json#34)
