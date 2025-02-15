@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+# See https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-schema for more information
+
+# Name of the application.
+name: ai-gbb-devcontainer
+#services:
+  ## An example for a python API service.
+  ## The service is named 'app'.
+  ## The language is 'python'.
+  ## The source code is located in the ./src directory (relative to azure.yaml).
+  ## The service will be hosted on Azure Container Apps.
+  ## A Docker file is available to build the image.
+  # app:
+  #   language: python
+  #   project: ./src
+  #   host: containerapp
+  #   docker:
+  #     path: ./Dockerfile
+hooks:
+  postprovision:
+    shell: sh
+    run: ./infra/hooks/postprovision.sh
+    interactive: true
+    continueOnError: false
