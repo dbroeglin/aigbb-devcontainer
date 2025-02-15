@@ -4,9 +4,7 @@ This is a template for working on Development Containers or GitHub Codespaces wi
 
 Feedback and bug reports are very welcome! Please open an GitHub issue if you find something that needs fixing or improvement.
 
-Warning
-
-Do NOT git clone the application under Windows and then open a DevContainer. This would create issues with file end of lines. For DevContainer click on the button above and let Visual Studio Code download the repository for you. Alternatively you can also git clone under Windows Subsystem for Linux (WSL) and ask Visual Studio Code to Re-Open in Container.
+![DevContainer Picture](aigbb-devcontainer.png)
 
 ## Getting Started
 
