@@ -21,6 +21,11 @@ Do NOT git clone the application under Windows and then open a DevContainer. Thi
 
 ### Provision Azure Resources
 
+Login with AZD:
+```bash
+azd auth login
+``` 
+
 To provision your Azure resources run:
 ```bash
 azd up
@@ -35,6 +40,10 @@ azd up
 > [!NOTE]
 > Azure AI Search is not provisioned by default due to the increased cost
 > and provisioning time.
+
+### Start working
+
+You can start working straight away by modifying `notebooks/SampleNotebook.ipynb`!
 
 ## Contents
 
