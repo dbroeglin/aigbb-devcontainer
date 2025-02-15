@@ -43,7 +43,7 @@ azd up
 
 ### Start working
 
-You can start working straight away by modifying `notebooks/SampleNotebook.ipynb`!
+🚀 You can start working straight away by modifying `notebooks/SampleNotebook.ipynb`!
 
 ## Contents
 
