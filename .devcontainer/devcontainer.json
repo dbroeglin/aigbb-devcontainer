@@ -10,7 +10,6 @@
     "customizations": {
       "vscode": {
         "extensions": [
-            "formulahendry.azure-storage-explorer",
             "GitHub.copilot-chat",
             "GitHub.copilot",
             "GitHub.remotehub",
